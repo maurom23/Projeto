@@ -22,10 +22,7 @@ namespace CanecasPersonalizadas.Controllers
             }
         }
 
-        private ActionResult Ok(object p)
-        {
-            throw new NotImplementedException();
-        }
+   
 
         [HttpGet("{id}")]
         public ActionResult getPeloId(int id)
